@@ -14,9 +14,9 @@
     
     <div>
     <nav> <hr width="50%"/>
-    <a href="index.html"> <u>Home</u> </a>
-     <a href="info.html"> Info </a>
-     <a href="contact.html"> Contact</a>
+    <a href="index.php"> <u>Home</u> </a>
+     <a href="info.php"> Info </a>
+     <a href="contact.php"> Contact</a>
     </nav>
     </div>
     </center>
