@@ -17,9 +17,9 @@
             <center>
     <header> <h1> <center> About Me</center> </h1></header>
        <div> <nav> <hr width="50%"/>
-    <a href="index.html"> Home </a>
-     <a href="info.html"><u> Info</u> </a>
-     <a href="contact.html"> Contact</a>
+    <a href="index.php"> Home </a>
+     <a href="info.php"><u> Info</u> </a>
+     <a href="contact.php"> Contact</a>
     </nav>
     </div></center>
     <div>
