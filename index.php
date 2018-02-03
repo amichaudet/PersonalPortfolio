@@ -35,7 +35,7 @@
             <hr>
             CST336 : Internet Programming. 2017&copy; Jason Henderson <br/>
             <strong>Disclaimer:</strong> This webpage is used for academic purposes only.<br/>
-            
+            <a href="Lab1"> <u>This is a test</u> </a>
         </footer>
     </body>
 </html>
