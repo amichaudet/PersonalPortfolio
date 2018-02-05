@@ -33,15 +33,15 @@
     <main>
 
     
-      <div>
-        <center>
+      <div id="justify">
+        
    This website will be presenting the main operating systems that are currently available. <br>
-   You will get an overview of microsoft Windows, Mac OS X and Linux <br>
+            You will get an overview of microsoft<b> Windows, Mac OS X and Linux </b><br>
     An operating system (OS) represents all the programs which pilot the various components (hard disk, screen, processor, memory etc. ...) of the computer device and allows it to work.
 It allows the user and the computer equipment to interact , it is also loaded first when starting the device.
 
 The operating system makes it possible to operate the different peripherals (sound card, graphics card, mouse, keyboard, etc.) thanks to the use of drivers which allow the operating system to communicate and give instructions to devices that could not function without them.
-          </center>
+          
     </div>    
      
 <div class="slideshow-container">
