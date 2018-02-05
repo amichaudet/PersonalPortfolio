@@ -17,6 +17,9 @@
                 font-family:arial, sans-serif;
                 /*border: 1px solid black;    */
             }
+            #justify{
+                        text-align:justify;
+            }
             
             .row {
                 margin: 10px;
