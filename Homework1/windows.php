@@ -28,13 +28,19 @@
 </ul>
 
     <div id="justify">
- <img src="img/microsoft.png" id="left"  alt="microsoft logo" width="300" > <br> <br> <br>
+ <img src="img/microsoft.png" id="left"  alt="microsoft logo" width="400" > <br> <br> <br>
 <p> <b>Windows</b> is the most popular operating system in the world. It was created in the mid 80's by microsoft. <br>
 In 1985, Microsoft Windows 1.01 is released and sold for $99 per unit. It was meant to be able to run several programs at the same time,
 while letting him to switch between them.
 <br> This operating system then kept improving itself, Microsoft releases very often new versions of its operating systel,
 Windows 10 is currently the last version of this OS.
 </p>
+<br>
+<h3>The first version of Windows</h3><br>
+It all started with the release of Windows 1.0, the very first operating system from Microsoft. At the time it is a veritable revolution! The user had for the first time the possibility of using a graphical interface, finished the lines of commands, the use of a computer would be a real success to become almost indispensable nowadays. Many new features are already present right out of Windows 1.0, windows, menus, scrollbars, icons and dialogs. Allowing users to interact with a computer in a simplified, fast and intuitive way, Windows also had several native applications, such as Notepad, Paint, a calculator and even a game. Windows 1.0 required 256 KB of storage space for its installation.
+
+An operating system present on many computers for more than 20 years, Windows is among the top 3 market leaders with Linux and MacOS. However, the US giant still outrageously dominates the market with nearly 90% of the world's computers using its OS.
+<br><br>
 </div>
 <p style="clear: both;">
 <h3> Market Share of the different operating systems</h3>
