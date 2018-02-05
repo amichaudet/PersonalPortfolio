@@ -27,7 +27,7 @@
   <!--<li style="float:right"><a class="active" href="#about">About</a></li>-->
 </ul>
 
-    <div>
+    <div id="justify">
  <img src="img/microsoft.png" id="left"  alt="microsoft logo" width="300" > <br> <br> <br>
 <p> <b>Windows</b> is the most popular operating system in the world. It was created in the mid 80's by microsoft. <br>
 In 1985, Microsoft Windows 1.01 is released and sold for $99 per unit. It was meant to be able to run several programs at the same time,
