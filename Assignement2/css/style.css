@@ -1,0 +1,27 @@
+.container{
+    margin: auto;
+    background-color: #66ccff ;
+    width: 80%;
+    color: red;
+    border-width: 2px;
+
+}
+.content{
+    margin: auto;
+    width: 90%;
+}
+.radios{
+    margin: auto;
+    width: 80%;
+}
+.submission{
+    margin: auto;
+    width: 40%;
+}
+.center{
+    margin: auto;
+    width: 70%;
+}
+h4{
+    color: black;
+}
