@@ -9,6 +9,7 @@
     <a href="777"> Lab2 : Slot Machine </a> <br>
     <a href="Challenge"> <u>Challenge</u> </a>
 <br> <a href="Assignement2"> <u>Assignement 2</u> </a>
+    <a href="Lab3"> <u>Lab3</u> </a>
      
 
 </body>
