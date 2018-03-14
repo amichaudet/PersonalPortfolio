@@ -84,7 +84,7 @@
             $username = $hasConnUrl ? $connParts['user'] : getenv('C9_USER');
             $password = $hasConnUrl ? $connParts['pass'] : '';
             
-            return new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+            $bdd = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
             
             if ($_GET['type']!='')
             {
