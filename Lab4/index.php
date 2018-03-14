@@ -68,7 +68,23 @@
         
             <?php
         
-            $bdd = new PDO("mysql:host=localhost;dbname=Lab4", 'amichaudet', 'amichaudet');
+      
+           // $connUrl = getenv('JAWSDB_MARIA_URL');
+            $connUrl = "mysql://al3hs7ts1gs7nlag:i6u135juh561puj2@olxl65dqfuqr6s4y.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/wqv97ofv7xgih2bu";
+            $hasConnUrl = !empty($connUrl);
+            
+            $connParts = null;
+            if ($hasConnUrl) {
+                $connParts = parse_url($connUrl);
+            }
+            
+            //var_dump($hasConnUrl);
+            $host = $hasConnUrl ? $connParts['host'] : getenv('IP');
+            $dbname = $hasConnUrl ? ltrim($connParts['path'],'/') : 'crime_tips';
+            $username = $hasConnUrl ? $connParts['user'] : getenv('C9_USER');
+            $password = $hasConnUrl ? $connParts['pass'] : '';
+            
+            return new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
             
             if ($_GET['type']!='')
             {
