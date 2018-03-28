@@ -4,6 +4,8 @@
         <title>Midterm program2</title>
     </head>
     <body>
+        I didn't have time to link the database to heroku, hozever, the program works fine on my C9 Worskpace <br>
+        <a href="https://ide.c9.io/amichaudet/amichaudet">My Workspace</a> <br>
         <?php
             $bdd= new PDO("mysql:host=localhost; dbname=midterm", 'amichaudet', 'amichaudet');
         ?>
