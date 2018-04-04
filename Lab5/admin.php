@@ -22,7 +22,7 @@ if(!isset($_SESSION['username'])) {
     </head>
         
     <body>
-        <h1>Admin Main</h1>
+        <h1>Admin </h1>
         <h2>Welcome</h2>
         
         <form method='POST' action="addUser.php">
