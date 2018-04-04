@@ -3,7 +3,7 @@
 <body>
 
 <h1>Alexandre MICHAUDET</h1>
-<h1>  Labs and assignments</h1>
+<h1>  Labs and assignments</h1> <br>
     <a href="PersonalPortfolio"> Portfolio Lab1 </a>
     <a href="Homework1"> <u>Homework 1</u> </a>
     <a href="777"> <u>Lab 2: Slot machine</u> </a>
