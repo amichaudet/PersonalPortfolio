@@ -1,11 +1,21 @@
 <?php
 
 function dbConnect() {
-    $host = 'us-cdbr-iron-east-05.cleardb.net';
-    $dbname = 'heroku_1dc696fd55314f5';
-    $username = 'b926203f77ae12';
-    $password = '216f3b0b';
-    return new PDO('mysql:host='.$host.';dbname='.$dbname, $username, $password);
+    $connUrl = "mysql://gonadbcm28b2pbc2:j8logw12pooo3jyl@p2d0untihotgr5f6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/jmjet2bi89ylt1b5";
+            $hasConnUrl = !empty($connUrl);
+            
+            $connParts = null;
+            if ($hasConnUrl) {
+                $connParts = parse_url($connUrl);
+            }
+            
+            //var_dump($hasConnUrl);
+            $host = $hasConnUrl ? $connParts['host'] : getenv('IP');
+            $dbname = $hasConnUrl ? ltrim($connParts['path'],'/') : 'lab5';
+            $username = $hasConnUrl ? $connParts['user'] : getenv('C9_USER');
+            $password = $hasConnUrl ? $connParts['pass'] : '';
+            
+            return new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 }
 
 
