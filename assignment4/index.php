@@ -13,15 +13,20 @@
     <script src="function.js"></script>
 </head>
 <style>
-    .body{
-        width: 550px;
+body{
+    background:#99ccff;
+}
+    .content{
+        width: 700px;
         margin-left: auto;
         margin-right: auto;
+        background:grey;
         border: 1px solid black;
+        
         
     }
     .comments {
-        margin-left: 23px;
+        margin-left: 20px;
     
     }
     
@@ -34,7 +39,7 @@
         width: 20px;
     }
     .pseudo {
-        color: #39659f;
+        color: blue;
         padding-right: 5px;
     }
     .postimg {
@@ -43,8 +48,8 @@
     }
 </style>
 <body>
-    
-    <div class="body">
+    <br><center><h1>Instagram </h1></center><br>
+    <div class="content">
         <ul  style="list-style-type:none" id="ulist">
             <script>
             
@@ -185,7 +190,7 @@
                       ]
                     },
                     {
-                      text: 'coachelle 2K18',
+                      text: 'coachella 2K18',
                       timestamp: 1518681617827,
                       photo: "img/coachella.jpg",
                       username: 'logan',
