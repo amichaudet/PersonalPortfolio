@@ -197,7 +197,7 @@
                           timestamp: 1518819807000,
                         },
                         {
-                          text: "I'm coming to",
+                          text: "I'm coming too",
                           username: 'Jake',
                           timestamp: 1518835500000,
                         },
